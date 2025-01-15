@@ -1,0 +1,95 @@
+/*supprime la marge de la page*/
+body {
+    margin: 0;
+}
+
+/*modifie la video pour la mettre en fond*/
+video {
+    position: fixed;
+    width: 1470px;
+    z-index: 0;
+}
+
+/* définit la taille, centre dans la page, centre les éléments dans la div*/
+main {
+    position: fixed;
+    height: 1150px;
+    width: 1460px;;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+/*créer un point invisible qui sert a placer les autres éléments */
+#marqueur {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+}
+
+/*place l'image du message*/
+#loves {
+    position: fixed;
+    width: 220px;
+    top: 150px ;
+    bottom: auto; /*je dois le remttre en auto car je le modifie dans image qui change toute les images*/
+    left: 625px;
+    z-index: 4;
+}
+
+/*place le pistil*/
+#mid {
+    position: absolute;
+    width: 78px;
+    bottom: auto;
+    left: auto;
+    z-index: 3;
+}
+
+/*définie le centre de l'image en bas*/
+img {
+    position: absolute;
+    width: 50px;
+    bottom: 0px;
+    left: -25px;
+    transform-origin: bottom;
+    z-index: 2;
+}
+
+/*change l'angle des images*/
+#b {
+    transform: rotate(36deg);
+}
+
+#c {
+    transform: rotate(72deg);
+}
+
+#d {
+    transform: rotate(108deg);
+}
+
+#e {
+    transform: rotate(144deg);
+}
+#f {
+    transform: rotate(180deg);
+}
+
+#g {
+    transform: rotate(216deg);
+}
+
+#h {
+    transform: rotate(252deg);
+}
+
+#i {
+    transform: rotate(288deg);
+}
+
+#j {
+    transform: rotate(324deg);
+}

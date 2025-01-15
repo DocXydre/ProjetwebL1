@@ -1,0 +1,64 @@
+@font-face { font-family: Montserrat; src: url('Montserrat.ttf'); }  /* ajoute au police disponnible la police Montserrat */
+ 
+/* définit la taille, centre dans la page, centre les éléments dans la div*/
+main {
+    font-family: Montserrat;   
+    width: 900px;
+    height: 900px;
+    margin: auto;      
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+}
+
+/*créer un point invisible qui sert a placer les autres éléments */
+#marqueur {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    z-index: 1;
+}
+/*se place au dessus de la div marqueur et modifie le bouton pour etre rond, sans bordur et avoir une ombre */
+button {
+    font-family: Montserrat;
+    position: absolute;
+    width: 200px;
+    height: 200px; 
+    border-radius: 200px;
+    z-index: 2;
+    border: none;
+    box-shadow: 0 0 8px black ;
+}
+
+/*définie le centre de l'image en bas*/
+img {
+    position: absolute;
+    bottom: 0px;
+    left: -100px; 
+    transform-origin: bottom;
+}
+
+/*change l'angle et la couleur des images */
+#nord {
+    filter: hue-rotate(50deg);
+}
+
+#est {
+    transform: rotate(72deg);
+    filter: hue-rotate(90deg);
+}
+
+#ouest {
+    transform: rotate(288deg);
+    filter: hue-rotate(180deg);
+}
+
+#sudouest {
+    transform: rotate(216deg);
+    filter: hue-rotate(270deg);
+}
+
+#sudest {
+    transform: rotate(144deg);
+    filter: hue-rotate(10deg);
+}
