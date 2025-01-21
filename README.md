@@ -7,6 +7,8 @@ Ce projet comporte deux parties principales :
 - En cliquant sur un bouton au centre, des branches apparaissent de manière aléatoire autour de l'étoile.
 - Chaque branche peut être supprimée en cliquant dessus.
 
+![Étoile avec branches](etoile.png)
+
 ## Partie 2 : Mini Jeu Inspiré du Jeu DS
 - Cette partie reprend la logique de la première, mais transforme le bouton en fleur avec des pétales.
 - Chaque pétale supprime un texte et le bouton change d'apparence à chaque interaction.
