@@ -14,6 +14,8 @@ Ce projet comporte deux parties principales :
 - Chaque pétale supprime un texte et le bouton change d'apparence à chaque interaction.
 - Le bouton agit comme un mini-jeu interactif.
 
+![Mini jeu fleur](fleur.png)
+
 ### Problème avec la Vidéo de Fond
 Le projet utilise une vidéo en arrière-plan qui s'adapte à la taille de l'écran. Cependant, elle peut ne pas être parfaitement ajustée sur tous les navigateurs.
 
