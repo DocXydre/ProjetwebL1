@@ -20,7 +20,7 @@ Ce projet comporte deux parties principales :
 Le projet utilise une vidéo en arrière-plan qui s'adapte à la taille de l'écran. Cependant, elle peut ne pas être parfaitement ajustée sur tous les navigateurs.
 
 ## Installation
-Clonez le repository et ouvrez le fichier `index.html` pour tester le projet.
+Clonez le repository et ouvrez le fichier `etoile.html` pour tester la partie 1 et ouvrez le fichier `ds.html` pour tester la partie 2.
 
 ## Technologies utilisées
 - HTML
